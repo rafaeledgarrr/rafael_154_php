@@ -1,0 +1,53 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: gainsboro; /* Warna latar belakang di luar border */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 40px);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    font-family: Arial, sans-serif;
+    padding-left: 10px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: darkgreen;
+}
+
+.result {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white; /* Warna latar belakang di dalam border */
+}
+
+.radio-group {
+    border-color: black;
+}
